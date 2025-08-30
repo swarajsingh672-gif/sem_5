@@ -9,7 +9,7 @@ class MostWater {
             int h = Math.min(height[left], height[right]);
             int width = right - left;
             int area = h * width;
-            maxArea = Math.max(maxArea, area);
+            max area .max(maxArea, area);
 
             // Move the pointer with the smaller height
             if (height[left] < height[right]) {
